@@ -1,0 +1,31 @@
+    footer {
+        background-color: rgba(44, 62, 80, 0.3); /* Colore scuro con trasparenza */
+        color: #fff;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        position: static;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-content {
+        padding: 1rem;
+        margin: 0 auto;
+        font-size:1rem; 
+    }
+
+    .footer-content a {
+        color: #1abc9c;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .footer-content a:hover {
+        color: #16a085;
+        text-decoration: underline;
+    }
+
