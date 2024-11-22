@@ -8,63 +8,84 @@ definiamo caratteristiche mappa di dove siamo
     height: 30rem;;
     margin-top: 1rem;
 }
+.content {
+  padding: 0.5rem;
+  max-width: 75rem;
+ 
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+.content ul {
+  list-style-type: none;
+}
+/* Stile per il contenitore principale */
+.elenchi {
+  background-color: #f9f9f9; /* Sfondo leggermente grigio */
+  border-radius: 10px; /* Arrotonda gli angoli */
+  padding: 20px; /* Spaziatura interna */
+  max-width: 400px; /* Limita la larghezza massima */
+  margin: 20px auto; /* Centra il contenitore */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra leggera */
+}
 
-div.content{
-    letter-spacing: 0.05rem; ;
-    margin-right: 3rem;
-    margin-left: 3rem;
-    font-size: 1.5rem;
-    font-family: "branding";
-    margin-bottom : 30rem;
+/* Stile per il titolo */
+.elenchi h2 {
+  font-family: 'Arial', sans-serif; /* Font moderno */
+  color: #3498db; /* Colore blu per il titolo */
+  text-align: center; /* Centra il testo del titolo */
+  margin-bottom: 15px;
 }
-a.content{
-    text-align: center;
-    font-size: 0.5rem;
+
+/* Stile per la lista non ordinata */
+.elenchi ul {
+  list-style-type: none; /* Rimuove i puntini della lista */
+  padding: 0;
+  margin: 0;
 }
-iframe.content{
-    margin:0;
+
+/* Stile per gli elementi della lista */
+.elenchi ul li {
+  background-color: #ffffff; /* Sfondo bianco per gli elementi */
+  border: 1px solid #e0e0e0; /* Bordo sottile per separare gli elementi */
+  border-radius: 5px; /* Arrotonda gli angoli degli elementi */
+  padding: 10px 15px;
+  margin-bottom: 10px; /* Spaziatura tra gli elementi */
+  font-family: 'Arial', sans-serif;
+  font-size: 16px; /* Dimensione del testo */
+  color: #555; /* Colore del testo */
+  display: flex; /* Usa il layout flex per allineare testo e icona */
+  justify-content: space-between; /* Spazio tra giorni e orari */
+  align-items: center; /* Centra verticalmente */
+  transition: background 0.3s; /* Animazione al passaggio del mouse */
 }
-.partner-gallery {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    padding: 20px;
-  }
+
+/* Effetto hover sugli elementi della lista */
+.elenchi ul li:hover {
+  background-color: #f0f8ff; /* Colore di sfondo più chiaro al passaggio del mouse */
+}
+
+/* Icona per indicare apertura o chiusura */
+.elenchi ul li::before {
+  content: '🕒'; /* Icona dell'orologio */
+  margin-right: 10px;
+  color: #3498db; /* Colore blu dell'icona */
+  font-size: 18px;
+}
+
+  #idraulicoImmagine > img {
+  max-width: 30rem;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #3498db;
   
-  .partner-gallery a {
-    display: inline-block;
-    transition: transform 0.3s ease;
-  }
-  
-  .partner-gallery img {
-    width: 150px;
+}
+
+ @media (max-width:70rem) {
+  #idraulicoImmagine > img {
+    max-width: 20rem;
     height: auto;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
-  
-  .partner-gallery a:hover {
-    transform: scale(1.05);
-    border-color: #333;
-  }
-  .services {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    line-height: 1.6;
-  }
-  
-  .services h2 {
-    color: #d72626;
-    margin-bottom: 10px;
-  }
-  
-  .services ul {
-    list-style-type: square;
-    margin-left: 20px;
-  }
-  
-  .services li {
-    margin-bottom: 5px;
-  }
-  
+
+}
