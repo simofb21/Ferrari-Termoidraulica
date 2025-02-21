@@ -1,5 +1,5 @@
 header {
-    background-color: rgb(18, 130, 174);
+    background-color: rgb(40, 176, 254);
     width: 100%;
     z-index: 9999;
     top: 0;
@@ -11,7 +11,7 @@ li.nav-item {
 }
 
 li.nav-item > a {
-    color: rgb(0, 0, 0);
+    color:white;
     text-decoration: none;
     text-align: center;
     font-size: 2rem;
@@ -41,7 +41,6 @@ li.nav-item > a {
     width: auto;
     height: 4rem;
     margin: 0 auto;
-    border: 1px solid white;
 }
 
 a.nav-link {
@@ -49,8 +48,8 @@ a.nav-link {
 }
 
 a.nav-link:hover {
-    color: rgb(0, 0, 0);
-    text-shadow: rgba(255, 255, 255, 1) 1px 0 10px;
+    color:white;
+    text-shadow: rgba(255, 255, 255, 0.426) 1px 0 10px;
 }
 
 .hamburger {
@@ -100,7 +99,7 @@ a.nav-link:hover {
     top: 70px;
     gap: 0;
     flex-direction: column;
-    background-color: rgb(18, 130, 174);
+    background-color: rgb(40, 176, 254);
     width: 100%;
     border-bottom: 1px solid white;
     border-top: 1px solid white;
@@ -116,6 +115,7 @@ a.nav-link:hover {
     left: 0;
     position: fixed;
     top: 5rem;
+    z-index: 999999;
 }
 
 * {

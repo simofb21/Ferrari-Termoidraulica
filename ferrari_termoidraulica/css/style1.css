@@ -2,7 +2,9 @@
 /*
 definiamo caratteristiche mappa di dove siamo
 */
-
+*{
+  line-height: 1.6;
+}
 #mappa {
     width: 100%;
     height: 30rem;;

@@ -1,13 +1,12 @@
     footer {
         background-color: rgba(44, 62, 80, 0.3); /* Colore scuro con trasparenza */
-        color: #fff;
+        color: #ffffffc6;
         text-align: center;
         font-family: Arial, sans-serif;
         position: static;
         bottom: 0;
         left: 0;
         width: 100%;
-        display: flex;
         justify-content: center;
         align-items: center;
     }
